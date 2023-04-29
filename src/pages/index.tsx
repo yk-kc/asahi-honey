@@ -1,3 +1,4 @@
+import Header from '@/components/Header'
 import Head from 'next/head'
 import React from 'react'
 
@@ -12,7 +13,10 @@ export default function Home() {
         />
         <link rel='icon' href='/favicon.ico' />
       </Head>
-      <main>ホーム画面</main>
+      <main>
+        <Header />
+        ホーム画面
+      </main>
     </>
   )
 }
