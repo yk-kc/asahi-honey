@@ -1,0 +1,30 @@
+.logoContainer {
+  background-color: #fff;
+  height: 84px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.linkText {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 2px;
+  color: #383838;
+}
+
+.linkSpace {
+  margin-right: 50px;
+}
+.linkSpace:last-child {
+  margin-right: 0;
+}
+.navFlex {
+  display: flex;
+}
+.navContainer {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
